@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "301572060768",
+    "firebase_url": "https://neexoapp.firebaseio.com",
+    "project_id": "neexoapp",
+    "storage_bucket": "neexoapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:301572060768:android:d8d68c918f2453a7",
+        "android_client_info": {
+          "package_name": "com.example.me.neexoapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "301572060768-l9dh2jfv2a1js5etbqqn52pfugl0koap.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPvfUHh8_KO-CqE1qhphWmCb3uB4JbuZY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

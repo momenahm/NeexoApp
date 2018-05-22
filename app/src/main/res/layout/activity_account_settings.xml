@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#673AB7"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.me.neexoapp.AccountSettings">
+<de.hdodenhof.circleimageview.CircleImageView
+    android:layout_width="170dp"
+    android:layout_marginTop="50dp"
+    android:layout_height="170dp"
+    android:src="@mipmap/profil"
+    android:layout_gravity="center"
+
+    app:civ_border_width="2dp"
+    android:id="@+id/settingImg"
+    app:civ_border_color="@android:color/darker_gray"
+    />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:text="Display Name"
+        android:textSize="25dp"
+        android:textColor="@android:color/white"
+     android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+
+        android:id="@+id/settingDisplayName"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:text="Next To Chat"
+        android:textSize="25dp"
+        android:textColor="@android:color/white"
+        android:background="#F44336"
+        android:textStyle="bold"
+        android:onClick="ToChat"
+        android:layout_marginTop="180dp"
+
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:text="Main Page"
+        android:textSize="25dp"
+        android:textColor="@android:color/white"
+        android:background="#2196F3"
+        android:textStyle="bold"
+        android:onClick="ToMain"
+        android:id="@+id/btn_mainact"
+        android:layout_marginTop="10dp"
+
+
+        />
+
+
+</LinearLayout>

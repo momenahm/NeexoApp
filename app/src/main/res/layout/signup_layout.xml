@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+                android:background="@mipmap/background"
+                android:layout_height="match_parent">
+
+    <EditText
+        android:alpha="0.7"
+        android:layout_width="362dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="210dp"
+        android:id="@+id/editUserreg"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:inputType="textPersonName"
+        android:hint="UserName"
+        android:textColorHint="@android:color/black"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="@android:color/black"
+        android:background="@drawable/edittext_design"
+        />
+    <EditText
+        android:alpha="0.7"
+        android:layout_width="362dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="310dp"
+        android:id="@+id/editEmailreg"
+        android:layout_marginRight="10dp"
+        android:inputType="textEmailAddress"
+        android:hint="Email"
+        android:textColorHint="@android:color/black"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="@android:color/black"
+        android:background="@drawable/edittext_design"
+        />
+    <EditText
+        android:alpha="0.7"
+        android:layout_width="362dp"
+        android:layout_marginRight="10dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="410dp"
+        android:id="@+id/editPassReg"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:textColorHint="@android:color/black"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="@android:color/black"
+        android:background="@drawable/edittext_design"
+        />
+    <Button
+        android:alpha="0.5"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="490dp"
+        android:id="@+id/btnReg"
+        android:text="Done !"
+        android:layout_marginRight="40dp"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="@android:color/white"
+        android:layout_marginLeft="45dp"
+        android:background="@drawable/btn_log"
+
+        />
+
+</RelativeLayout>

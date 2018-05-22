@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              app:cardBackgroundColor="#ffffff"
+              android:layout_marginTop="10dp"
+                                    app:cardCornerRadius="10dp"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+<android.support.v7.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="#ffffff"
+    app:cardCornerRadius="10dp"
+    android:layout_margin="5dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profileimg"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="10dp"
+            android:scaleType="centerCrop"
+            android:background="#00ffffff"
+            app:civ_border_width="0.5dp"
+            app:civ_border_color="@android:color/darker_gray"
+            android:src="@mipmap/profil"/>
+        <TextView
+            android:textSize="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Username"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@android:color/black"
+            android:id="@+id/mainusername"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        app:cardCornerRadius="15dp"
+        android:layout_margin="5dp"
+        app:cardBackgroundColor="@android:color/white"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:id="@+id/mainimg"
+        >
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="Head Of Post :"
+        android:textSize="20dp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:id="@+id/txthead"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="Post :"
+        android:textSize="20dp"
+        android:textColor="@android:color/black"
+        android:textStyle="italic"
+        android:id="@+id/txtpost"
+        />
+
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content"
+    >
+
+    <ImageButton
+        android:id="@+id/likebtn"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="#00ffffff"
+        app:srcCompat="@mipmap/likeeee"/>
+  <Button
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="Comment"
+      android:textColorHint="@android:color/black"
+      android:background="@drawable/relative_la"
+      android:layout_marginTop="15dp"
+      android:textSize="25dp"
+      android:textStyle="bold"
+      android:layout_marginLeft="5dp"
+      android:layout_marginRight="5dp"
+      android:id="@+id/comment"
+      />
+</LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+      <ListView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:id="@+id/listcomment"
+          ></ListView>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+</android.support.v7.widget.CardView>

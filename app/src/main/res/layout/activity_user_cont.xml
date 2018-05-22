@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#BBDEFB"
+    android:layout_height="match_parent"
+    tools:context="com.example.me.neexoapp.UserCont">
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/profileimgg"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:background="#00ffffff"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/profil"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/edittext_design"
+        android:hint="Phone Number......"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/black"
+        android:padding="15dp"
+        android:id="@+id/phonenumber"
+        />
+    <Button
+        android:alpha="0.4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+android:id="@+id/btnstart"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="60dp"
+        android:text="Start"
+        android:background="#0091EA"
+        android:textSize="30dp"
+        android:padding="10dp"
+        android:textStyle="bold"
+
+        />
+
+
+</LinearLayout>

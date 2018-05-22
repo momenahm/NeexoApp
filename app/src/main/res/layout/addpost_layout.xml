@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:background="#ffffff"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="5dp"
+        android:background="@mipmap/add_btn"
+        android:id="@+id/imgpost"
+        />
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/editHead"
+        android:background="@drawable/edit_post"
+        android:hint="Head Of Post......"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/black"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:gravity="center"
+
+        />
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/editpost"
+        android:background="@drawable/edit_post"
+        android:hint="Post ......"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/black"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:gravity="center"
+
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/postbtn"
+        android:text="Add Post"
+        android:textSize="25dp"
+        android:id="@+id/btnaddpost"
+        />
+
+
+</LinearLayout>

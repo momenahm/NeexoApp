@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/prodb" android:title="Profile" android:icon="@mipmap/ic_view_list_black_24dp"/>
+    <item android:id="@+id/event" android:title="Movies" android:icon="@mipmap/ic_movie_black_24dp"/>
+    <item android:id="@+id/search" android:title="News" android:icon="@mipmap/ic_search_black_24dp"/>
+    <item android:id="@+id/setting" android:title="Settings" android:icon="@mipmap/ic_settings_black_24dp"/>
+    <item android:id="@+id/act" android:title="Signout" android:icon="@mipmap/ic_close_black_24dp"/>
+    <item android:id="@+id/chat" android:title="Chat" app:showAsAction="always"/>
+</menu>

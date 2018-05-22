@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+                android:background="@mipmap/background"
+              android:layout_height="match_parent">
+
+
+    <EditText
+        android:alpha="0.5"
+        android:layout_width="362dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="210dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/editEmailLogin"
+        android:inputType="textEmailAddress"
+        android:layout_marginRight="10dp"
+        android:hint="Email"
+        android:textColorHint="@android:color/black"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="@android:color/black"
+        android:background="@drawable/edittext_design"
+        />
+    <EditText
+        android:alpha="0.5"
+        android:layout_width="362dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="310dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/editPassLogin"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:textColorHint="@android:color/black"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="@android:color/black"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/edittext_design"
+        />
+
+    <Button
+        android:alpha="0.5"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="410dp"
+        android:id="@+id/btnLogin"
+        android:text="Login"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="@android:color/white"
+        android:layout_marginLeft="35dp"
+        android:background="@drawable/btn_log"
+
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up Now ?"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="#b42eb5"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="470dp"
+        android:id="@+id/Rrgister"
+
+        />
+
+
+</RelativeLayout>
