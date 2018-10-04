@@ -44,7 +44,7 @@ public class MainPage extends AppCompatActivity implements NavigationView.OnNavi
         int id = item.getItemId();
         if (id == R.id.prodb)
         {
-                Toast.makeText(MainPage.this,"Toz feek ",Toast.LENGTH_LONG).show();
+               
 
         }
         else if (id == R.id.chat)
